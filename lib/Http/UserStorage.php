@@ -3,7 +3,7 @@
 namespace Majkl578\NetteAddons\Doctrine2Identity\Http;
 
 use Doctrine\Common\Util\ClassUtils;
-use Doctrine\ORM\EntityManager;
+use tipli\Model\Doctrine\EntityManager;
 use Majkl578\NetteAddons\Doctrine2Identity\Security\FakeIdentity;
 use Nette\Http\Session;
 use Nette\Http\UserStorage as NetteUserStorage;
