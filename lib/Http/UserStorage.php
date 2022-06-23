@@ -51,7 +51,7 @@ class UserStorage extends NetteUserStorage
 	 * Returns current user identity, if any.
 	 * @return IIdentity|NULL
 	 */
-	public function getIdentity()
+	public function getIdentity(): ?Nette\Security\IIdentity
 	{
 		$identity = parent::getIdentity();
 
